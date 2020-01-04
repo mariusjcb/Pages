@@ -9,6 +9,7 @@ import XCTest
 import SwiftUI
 @testable import Pages
 
+@available(iOS 13.0, *)
 final class ModelPagesTests: XCTestCase {
 
     struct Car: Identifiable {
